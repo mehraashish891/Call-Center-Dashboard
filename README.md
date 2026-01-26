@@ -1,67 +1,137 @@
-       
-# Call Center Analytics  Dashboard
+## 📞 Call Center Performance Analytics – Power BI
+### 📌 Project Overview
 
+This project delivers an interactive Call Center Performance Dashboard built in Power BI to help business leaders monitor operations, improve customer experience, and optimize workforce allocation.
 
-## Problem Overview
+The dashboard transforms raw call data into actionable business insights related to:
 
-This project involves creating an interactive Power BI dashboard to analyze and visualize Call center data. The primary goal is to provide actionable insights and key performance indicators (KPIs) to improve call center operations and decision-making processes. The dashboard offers a comprehensive view of call metrics, agent performance, and customer satisfaction.
+Agent performance
 
+Response efficiency
 
+Customer sentiment
 
-### Steps followed 
+Regional workload distribution
 
--    Load data into Power BI Desktop, dataset is a csv file.
--   Imported the CSV file into Power BI.
--  Performed data cleaning using the Power Query Editor.
-- Created various KPIs using the dataset:
+### 🧠 Business Problem
 
-    *   Total Calls- 32.94K
-    *  Total Call duration in hours- 13.74K hrs
-    *  Response Time in %- 75.26%
-    *  Total Call duration in minutes- 824.22K min
-    *  Average Call duration in minutes- 25.02 min
+Call centers face challenges such as:
 
-- Created different charts like Bar charts and Donut charts.
+Uneven workload across offices
 
-### Technologies Used
+Poor response times
 
-     Power BI: Main tool for creating and publishing the interactive dashboard.
+Growing negative customer sentiment
 
-     DAX (Data Analysis Expressions): Used for creating calculated columns and measures 
-                                       to derive meaningful insights.
+Lack of real-time operational visibility
 
-     Power Query: For data transformation and preparation before visualization.
+#### Objective:
+Build a data-driven system that enables managers to:
 
-     GitHub: To manage project versions, documentation, dashobard and code.
+Identify operational bottlenecks
 
-## Insights
+Improve service quality
 
+Allocate resources effectively
 
-#### Here are some important insights from the dashboard:
+Increase customer satisfaction
 
+### 🛠 Tools & Technologies
 
-   🔳 Thursdays and Fridays are the busiest days with the highest number of calls received.
-   
-   🔳 The Los Angeles office is the busiest among all 4 offices with 50% of calls received.
+Power BI – Data visualization & dashboard design
 
-   🔳 Baltimore office has the worst performance in response time.
+Power Query – Data cleaning & transformation
 
-   🔳 Most of the calls received are related to Billing questions.
+DAX – KPI calculation & business metrics
 
-   🔳 Negative sentiment calls are received in all Call center offices.
+GitHub – Version control & documentation
 
+### ⚙ Data Processing Workflow
 
+#### Data Ingestion
 
+Imported CSV dataset into Power BI
 
- ## Based on these insights, I suggest the following improvements for the Call center:
+#### Data Cleaning
 
+Removed null values and inconsistencies
 
-        ▶  As Thursdays and Fridays are the busiest days in the month, allocate more 
-            customer representatives on these days.
-        ▶  As Response Time shows 75.26%, indicating a need for improvement to increase 
-            customer satisfaction and trust.
-        ▶  Detected approx. 11K calls with negative sentiment calls, leading to a proposal 
-            for company-wide workshops or training to enhance customer interaction skills 
-            and reduce negative sentiment calls.
+Standardized formats using Power Query
 
+#### KPI Engineering
+Created key performance metrics:
 
+Total Calls → 32.94K
+
+Total Call Duration → 13.74K hours
+
+Response Time → 75.26%
+
+Average Call Duration → 25.02 minutes
+
+#### Visualization Layer
+
+Bar charts for regional performance
+
+Donut charts for sentiment analysis
+
+KPI cards for management tracking
+
+### 📊 Key Business Insights
+
+✔ Workload Concentration
+
+Los Angeles office handles ~50% of all calls, creating operational pressure.
+
+✔ Response Efficiency Risk
+
+Baltimore office shows the worst response time, indicating staffing or process issues.
+
+✔ Customer Sentiment Alert
+
+Detected ~11,000 negative sentiment calls across all offices.
+
+✔ Demand Patterns
+
+Thursdays and Fridays are the busiest days.
+
+✔ Call Category Analysis
+
+Majority of calls relate to Billing queries, suggesting opportunity for automation.
+
+### 💡 Business Recommendations
+
+Based on the analysis:
+
+▶ Increase staffing on Thursdays & Fridays to reduce waiting time
+▶ Implement targeted training for Baltimore office agents
+▶ Introduce customer communication workshops to reduce negative sentiment
+▶ Automate responses for billing-related queries using IVR or chatbots
+
+### 🚀 Business Value Delivered
+
+This dashboard enables:
+
+Faster managerial decisions
+
+Improved customer experience
+
+Reduced operational inefficiencies
+
+Better workforce planning
+
+It demonstrates how data can directly support business strategy.
+
+### 📌 Skills Demonstrated
+
+This project showcases my ability to:
+
+Translate business problems into data solutions
+
+Clean and transform real-world datasets
+
+Design KPIs for decision-making
+
+Build executive-level dashboards
+
+Generate actionable insights, not just visuals-
