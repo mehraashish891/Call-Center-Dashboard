@@ -104,8 +104,11 @@ Majority of calls relate to Billing queries, suggesting opportunity for automati
 Based on the analysis:
 
 ▶ Increase staffing on Thursdays & Fridays to reduce waiting time
+
 ▶ Implement targeted training for Baltimore office agents
+
 ▶ Introduce customer communication workshops to reduce negative sentiment
+
 ▶ Automate responses for billing-related queries using IVR or chatbots
 
 ### 🚀 Business Value Delivered
